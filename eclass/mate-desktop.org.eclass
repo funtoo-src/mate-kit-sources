@@ -21,7 +21,7 @@ _MATE_DESKTOP_ORG_ECLASS=1
 # @INTERNAL
 # @DESCRIPTION:
 # All projects hosted on mate-desktop.org provide tarballs as tar.xz.
-: "${MATE_TARBALL_SUFFIX}:=xz}"
+: "${MATE_TARBALL_SUFFIX:=xz}"
 
 # @ECLASS_VARIABLE: MATE_DESKTOP_ORG_PN
 # @DESCRIPTION:
