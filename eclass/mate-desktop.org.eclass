@@ -5,12 +5,12 @@
 # mate@gentoo.org
 # @AUTHOR:
 # Authors: NP-Hardass <NP-Hardass@gentoo.org> based upon the gnome.org eclass.
-# @SUPPORTED_EAPIS: 7 8
+# @SUPPORTED_EAPIS: 6 7 8
 # @BLURB: Helper eclass for mate-desktop.org hosted archives
 # @DESCRIPTION:
 
 case ${EAPI} in
-	7|8) ;;
+	6|7|8) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 

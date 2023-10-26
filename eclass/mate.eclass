@@ -5,7 +5,7 @@
 # mate@gentoo.org
 # @AUTHOR:
 # Authors: NP-Hardass <NP-Hardass@gentoo.org>
-# @SUPPORTED_EAPIS: 7 8
+# @SUPPORTED_EAPIS: 6 7 8
 # @BLURB: Provides phases for MATE based packages.
 # @DESCRIPTION:
 # Exports portage base functions used by ebuilds written for packages using the
@@ -14,7 +14,7 @@
 
 # Check EAPI only
 case "${EAPI:-0}" in
-	7|8) ;;
+	6|7|8) ;;
 	*) die "EAPI=${EAPI:-0} is not supported" ;;
 esac
 
